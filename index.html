@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play the classic Rock Paper Scissors game online. Challenge the computer and see if you can win!">
+    <meta name="keywords" content="Rock Paper Scissors, game, online game, classic game, play, fun, challenge, computer game">
+    <meta name="author" content="Your Name">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper & Scissors</title>
+</head>
+<body>
+    <div id="main-container">
+        <h1>Rock, Paper & Scissors</h1>
+        <div id="buttons-container">
+            <button onclick="playGame('Rock')">Rock</button>
+            <button onclick="playGame('Paper')">Paper</button>
+            <button onclick="playGame('Scissor')">Scissors</button>
+        </div>
+        <div id="paragraph-container">
+            <p id="game-result"></p>
+            <p id="moves-display"></p>
+            <p id="score-display"></p>
+        </div>
+    </div>
+    <footer>
+        <h3>Made by Grafals</h3>
+    </footer>
+   
+    <canvas id="background-canvas"></canvas>
+    <script src="script.js"></script>
+    <script src="background-animation.js"></script>
+</body>
+</html>
